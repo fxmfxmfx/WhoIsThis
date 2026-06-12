@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "whoisthis",
+  "version": "${version}",
+  "name": "whoisthis",
+  "description": "Shows the hovered player's name while middle mouse is held.",
+  "authors": ["trqwenyy"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.trqwenyy.whoisthis.WhoIsThisClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
